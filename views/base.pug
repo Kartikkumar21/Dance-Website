@@ -1,0 +1,19 @@
+//- layout.pug
+html
+  head
+    title kartik dance academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/logo (2).png")
+                |KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") contact Us]
+    block content
+    footer#footer
+        | Copyright © 2020 kartikAcademy.com | All Rights Reserved
